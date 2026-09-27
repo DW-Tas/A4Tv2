@@ -11,18 +11,25 @@ A4Tv2 is a new version of [A4T](https://github.com/DW-Tas/A4T), from: [![ko-fi](
 
 ## Documentation and assembly
 
-There is currently no complete A4Tv2 documentation and no installation or assembly instructions. The CAD, STL, and 3MF files have been exported and are available to get started with.
+There is currently no complete documentation for A4Tv2 and no installation or assembly instructions. The CAD, STL, and 3MF files have been exported and are available to get started with.
 
 ## Files
 
-- `CAD/` STEP files, including the A4Tv2 assembly STEP and ZIP exports.
-- `STL/` exported STL files.
-- `3MF/` exported 3MF files.
+- `CAD/` contains STEP files, including the A4Tv2 assembly STEP and ZIP exports.
+- `STL/` contains exported STL files.
+- `3MF/` contains exported 3MF files.
+
+
+## Fan Options
+
+ - **`4015:`** Finding *GOOD* 4015 fans is a challenge. Peopoly [Magneto X Lancer Extruder Side Turbo Fan](https://peopoly.net/products/magneto-x-lancer-extruder-side-turbo-fan?variant=50568975810842)s have amazing flow and pressure (not far of 5015s), but, they require hardware PWM and slicer configuration to compensate for slow spin up time (around 1 second).
+ - **`4010 inbuilt backflow inhibitor:`** These ducts for the GDStime 12k 4010 fans are made with the backflow inhibitor built in. Take the front off the fan before installing into the duct.
+ - **`4010:`** A generic duct that fits most 4010 fans. Requires backflow inhibitors to be installed in the same way as A4T. Good to reuse fans with inhibitors already glued in place.
 
 > [!WARNING]
 >## UHF hotend screw warning
 >
->The UHF versions, including Rapido X, use countersunk screws to hold the hotend to the main body. I am not yet certain this is a good .long-term fastening method. The wedge shape of the countersunk screw could put outward force on the printed plastic and cause it to creep or split over time. This is a potential risk, not a confirmed failure; treat these versions as experimental and inspect the printed part for cracking or deformation.
+>The UHF versions, including Rapido X, use countersunk screws to hold the hotend to the main body. The wedge shape of a countersunk screw may put outward force on the printed plastic and cause it to creep or split over time. Treat these versions as experimental and inspect the printed part for cracking or deformation. Feedback encouraged.
 
 <br/><br/>
 > [!TIP] 
@@ -42,5 +49,5 @@ This work is licensed under a
 
 ### License clarification regarding non-commercial use:
 The non-commercial aspect of this license is for cases where A4Tv2 is the product, not the use of A4Tv2 to create products.<br/>
-I.e. If you wish to sell A4Tv2 as a product, you would need to seek a commercial license before doing so. </br>
+For example, if you wish to sell A4Tv2 as a product, you would need to seek a commercial license before doing so. </br>
 It is NOT intended to prevent the use of A4Tv2 in a printer that you use to provide commercial services. If you want to run A4Tv2 as a toolhead for your print farm printers, go right ahead.
