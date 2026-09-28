@@ -11,7 +11,9 @@ A4Tv2 is a new version of [A4T](https://github.com/DW-Tas/A4T), from: [![ko-fi](
 
 ## Documentation and assembly
 
-There is currently no complete documentation for A4Tv2 and no installation or assembly instructions. The CAD, STL, and 3MF files have been exported and are available to get started with.
+A basic illustrated [A4Tv2 toolhead assembly guide](docs/toolhead_build.md) is now available. It covers preparation of the printed parts, fan and duct installation, hotend and extruder assembly, wiring, and mounting the completed toolhead to the carriage.
+
+A4Tv2 remains a prerelease, so the guide and hardware details may change as development continues. Check that the instructions and fastener lengths are suitable for your selected hotend, extruder, ducts, and carriage before assembly.
 
 ## Files
 
