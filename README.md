@@ -15,6 +15,47 @@ A basic illustrated [A4Tv2 toolhead assembly guide](docs/toolhead_build.md) is n
 
 A4Tv2 remains a prerelease, so the guide and hardware details may change as development continues. Check that the instructions and fastener lengths are suitable for your selected hotend, extruder, ducts, and carriage before assembly.
 
+
+> [!WARNING]
+>## UHF hotend screw warning
+>
+>The UHF versions, including Rapido X, use countersunk screws to hold the hotend to the main body. The wedge shape of a countersunk screw may put outward force on the printed plastic and cause it to creep or split over time. Treat these versions as experimental and inspect the printed part for cracking or deformation. Feedback encouraged.
+
+
+## Pre-requisites
+A printer that fits either Xol carriage, or a standard voron CW2 or Tap carriage. `NOT cartographer CNC carriage (see warning below)`<br/>
+<br/>
+To avoid build plate area loss:
+- X/Y gantry joints that are within the same size as standard Voron 2.4 or Trident X/Y joints.
+- Slimmer than stock idlers (see warning below) 
+
+See Voron Design instructions to install TAP.<br/>
+`If using tap, highly recommended to replace M3x50 SHCS with button head screws for better build plate clearance.`<br/>
+
+> [!NOTE] 
+> ### Notes for Xol-Carriage<br/>
+> * Xol-Carriage documentation is here: https://github.com/Armchair-Heavy-Industries/Xol-Toolhead/blob/main/docs/xol_carriage_assembly.md<br/>
+> * A4T uses standard length probe modules for Xol-Carriage (even with UHF hotends in A4T).<br/>
+> * Monolith Gantry users should go with the Monolith specific Xol-Carriage mod: [Monolith_Xol-Carriage](https://github.com/Armchair-Heavy-Industries/Armchair-Usermods/tree/main/files/Xol-Toolhead/Monolith_Xol-Carriage)<br/>
+
+<br/><br/>
+
+> [!WARNING]
+> ### Front Idlers  
+> A4T can collide with the stock voron front idlers for older Trident (pre-R2) and current v2.4 when the toolhead is in the front corners of the build area. This can cause issues with the homing sequence when homing X if the toolhead is at the front of the gantry on Y. <br/><br/>
+> Fully compatible idlers:<br/>
+> * clee's [BFI (Beefy Front Idlers)](https://github.com/clee/VoronBFI)  <br/>
+> * Ramalama2's [Front Idlers](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Front_Idlers)<br>
+> * Voron Trident R2 stock idlers  
+
+<br/><br/>
+
+> [!WARNING]
+> ### Cartographer CNC carriage  
+> <img src='docs/images/NoCncCartoCarriage.png' width=50 align='left'> The Cartographer CNC carriage is made for StealthBurner, not A4T. The probe will sit too low if used with A4T unless you have the tools and skill necessary to remove ~1.8mm off the bottom of the Cartographer CNC carriage mounting points where the probe attaches.
+
+<br/>
+
 ## Files
 
 - `CAD/` contains STEP files, including the A4Tv2 assembly STEP and ZIP exports.
@@ -31,11 +72,6 @@ A4Tv2 remains a prerelease, so the guide and hardware details may change as deve
 - **`4010:`** Two duct options are available:
   - **Backflow inhibitor built into duct:** Designed for GDStime 12k 4010 fans, with the backflow inhibitor built in. Take the front off the fan before installing into the duct.
   - **Generic duct:** Fits most 4010 fans. Requires backflow inhibitors to be installed in the same way as A4T. Good for reusing fans with inhibitors already glued in place.
-
-> [!WARNING]
->## UHF hotend screw warning
->
->The UHF versions, including Rapido X, use countersunk screws to hold the hotend to the main body. The wedge shape of a countersunk screw may put outward force on the printed plastic and cause it to creep or split over time. Treat these versions as experimental and inspect the printed part for cracking or deformation. Feedback encouraged.
 
 <br/><br/>
 > [!TIP] 
