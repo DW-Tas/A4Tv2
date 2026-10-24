@@ -19,7 +19,8 @@ A4Tv2 remains a prerelease, so the guide and hardware details may change as deve
 > [!WARNING]
 >## UHF hotend screw warning
 >
->The UHF versions, including Rapido X, use countersunk screws to hold the hotend to the main body. The wedge shape of a countersunk screw may put outward force on the printed plastic and cause it to creep or split over time. Treat these versions as experimental and inspect the printed part for cracking or deformation. Feedback encouraged.
+>The UHF versions, including Rapido X, use shortened M2.5 SHCS screws (previously countersunk screws) to hold the hotend to the main body. <br>
+>The wedge shape of a countersunk screw did put outward force on the printed plastic and caused it to split. These were replaced on the 24th of October with versions using shorter SHCS instead. Treat these versions as experimental and inspect the printed part for cracking or deformation. Feedback encouraged.
 
 
 ## Pre-requisites
