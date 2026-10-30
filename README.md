@@ -74,6 +74,25 @@ See Voron Design instructions to install TAP.<br/>
   - **Backflow inhibitor built into duct:** Designed for GDStime 12k 4010 fans, with the backflow inhibitor built in. Take the front off the fan before installing into the duct.
   - **Generic duct:** Fits most 4010 fans. Requires backflow inhibitors to be installed in the same way as A4T. Good for reusing fans with inhibitors already glued in place.
 
+<br><br>
+
+## Bill of Materials (Draft)
+| Category              | Item                       | Qty        | Note                                                                                       |
+| --------------------- | -------------------------- | ---------- | ------------------------------------------------------------------------------------------ |
+| 🟢 Fans              | 2510 Axial                 | 1          | Hotend Fan                                                                                 |
+| 🟢                   | 4010/4015 Blower           | 2          | Part cooling fans                                                                          |
+| 🔴 Electrical        | Neopixel LED PCB           | 3          | 1x Status, 2x Nozzle. Prefer RGBW (Neutral or warm white)                                  |
+| 🔴                   | 28AWG Wire (RED)           | ~400mm     | LED Wire harness (Should be more than enough to reach toolhead board)                      |
+| 🔴                   | 28AWG Wire (BLACK)         | ~400mm     | LED Wire harness (Should be more than enough to reach toolhead board)                      |
+| 🔴                   | 28AWG Wire (BLUE)          | ~400mm     | LED Wire harness (Should be more than enough to reach toolhead board)                      |
+| 🔴                   | Connector crimps and plugs | as requred | To suit toolhead board used                                                                |
+| 🔵 Fasteners         | M3x8 SHCS                  | 10         | Lower and upper carriage srews[x4], 4015 blower fans (Peopoly fans)[x6]                    |
+| 🔵                   | M3x6 BHCS                  | 12         | Fan Ducts to Main body[x4], Carriage "hook" screws[x2], 4015 blower fans (*Other fans)[x6] |
+| 🔵                   | M3x16 BHCS                 | 4          | HEF+duct[x2], WW-BMG to main body[x2]                                                      |
+| 🔵                   | DIN562 thin square nut M3  | 8          | Printed xol-carraige upper[x2], Part fan ducts to main body[x4], Extruder to main body[x2] |
+| 🔵                   | M2x10 Hex head self tapper | 8          | 4010 blower fans into ducts                                                                |
+| 🟡 Hardware specific | M2.5x6 SHCS                | 4          | UHF hotend mounting screws (other hotends should include screws that work)                 |
+
 <br/><br/>
 > [!TIP] 
 > ### You can help support the development of this project.<br/>
